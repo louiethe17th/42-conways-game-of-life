@@ -22,7 +22,7 @@ public class GameOfLifeView extends SurfaceView implements Runnable {
     public Button btn = findViewById(R.id.reset);
 
     public static final int DEFAULT_SIZE = 25;
-    public static final int DEFAULT_ALIVE_COLOR = Color.WHITE;
+    public static final int DEFAULT_ALIVE_COLOR = Color.GREEN;
     public static final int DEFAULT_DEAD_COLOR = Color.BLACK;
     private Thread thread;
     private boolean isRunning = false;
